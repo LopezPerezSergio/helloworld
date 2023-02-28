@@ -1,5 +1,12 @@
 # helloworld
 
+## En este Proyecto se aprendio lo siguiente:
+```
+* Primer Hola mundo
+* Conociendo los componentes
+* Conociendo los OptionAPI
+* Conociendo los CompositionAPI
+```
 ## Project setup
 ```
 npm install
