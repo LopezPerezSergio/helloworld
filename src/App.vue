@@ -1,27 +1,34 @@
+<!-- En la etiqueta template se estara escribiendo el codigo HTML que va a contener la aplicacion-->
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js + TypeScript App"/>
+  <!-- Conociendo los componentes -->
+<!-- 
+    <h1>Hola mundo estos son mis posts</h1>
+    <h1>Listado de Post:</h1>
+          <PostContainer/> -->
+
+  <!-- Conociendo el OpcionAPI -->
+  <!-- <CounterOptionAPI /> -->
+
+  <!-- Conociendo el compositionAPI  -->
+  <CounterCompositionAPI />
 </template>
 
-<script lang="ts">
-import { defineComponent } from 'vue';
-import HelloWorld from './components/HelloWorld.vue';
+<!-- Contiene la logica y los datos de dicho componente en TypeScript -->
+<script lang="ts" setup>
+/* Conociendo los componentes */
+/*     import PostContainer from './components/PostContainer.vue';
+ */
 
-export default defineComponent({
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-});
+/* Conociendo el OpcionAPI */
+/* import CounterOptionAPI from './components/CounterOptionAPI.vue' */
+
+/* Conociendo el compositionAPI */
+import CounterCompositionAPI from './components/CounterCompositionAPI.vue'
 </script>
 
+<!-- Estilos que afectara al componente -->
 <style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+h1 {
+  color: green;
 }
 </style>
